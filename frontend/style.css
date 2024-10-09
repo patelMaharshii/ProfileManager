@@ -17,11 +17,12 @@ body {
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 400px;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
 }
 
@@ -30,77 +31,25 @@ label {
     margin-top: 10px;
 }
 
-input[type=""] {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
 .form-group label {
-    margin-right: 10px; /* Adds space between the label and the button */
+    margin-right: 10px;
 }
 
 .form-group {
     display: flex;
-    justify-content: space-between; /* Aligns label on the left, button on the right */
-    align-items: center;            /* Vertically aligns items */
-    width: 100%;                    /* Ensures the container spans full width */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-input[type="button"] {
+.linkBtn {
     padding: 5px 10px;
     background-color: lightblue;
     border-radius: 4px;
 }
 
-input[type="button"]:hover {
+.linkBtn:hover {
     padding: 5px 10px;
     background-color: rgb(95, 172, 198);
     border-radius: 4px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #218838;
-}
-
-#profiles {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-}
-
-#profiles li {
-    background: #f8f9fa;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#profiles li button {
-    background-color: #dc3545;
-    border: none;
-    padding: 5px 10px;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#profiles li button:hover {
-    background-color: #c82333;
 }
